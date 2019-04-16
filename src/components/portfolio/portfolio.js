@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Card from '@material-ui/core/Card';
 import CardMedia from '@material-ui/core/CardMedia';
 import CardContent from '@material-ui/core/CardContent';
-import CardActionArea from '@material-ui/core/CardActionArea';
+import CardActionArea from '@material-ui/core/CardActionArea'; 
 
 export class Portfolio extends Component {
         render() {
@@ -14,7 +14,7 @@ export class Portfolio extends Component {
                   <h5>Portfolio</h5>
                   <h1>Check Out Some of My Work!</h1>
                   <p className="lead">A collection of some of my recent projects, web applications, and designs</p>
-                    <div className = "cards">
+                <div className = "cards">
                   <Card>
                     <CardActionArea target ="_blank" href="https://www.github.com/rjsmall90/rjsresume">
                     <CardMedia>
@@ -55,7 +55,7 @@ export class Portfolio extends Component {
                     </CardMedia>
                     <h2>FoodReyes-touch screen application for registering inventory and purchasing products</h2>
                     <CardContent>
-                    <p>using Java, Spring/SpringBoot, & PostgreSQL, built a functioning, full-stack scheduling application to better learn the Spring MVC design pattern and using React for the front-end.</p> 
+                    <p>working with a partner-using Java, Spring/SpringBoot, & React , building a .</p> 
                     </CardContent>
                     </CardActionArea>
                   </Card>
