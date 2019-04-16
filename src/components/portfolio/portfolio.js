@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Card from '@material-ui/core/Card';
 import CardMedia from '@material-ui/core/CardMedia';
 import CardContent from '@material-ui/core/CardContent';
+import CardActionArea from '@material-ui/core/CardActionArea';
 
 export class Portfolio extends Component {
         render() {
@@ -15,15 +16,18 @@ export class Portfolio extends Component {
                   <p className="lead">A collection of some of my recent projects, web applications, and designs</p>
                     <div className = "cards">
                   <Card>
+                    <CardActionArea target ="_blank" href="https://www.github.com/rjsmall90/rjsresume">
                     <CardMedia>
                       <img src="images/Rsmall.jpg"></img>
                     </CardMedia>
                     <h2>Resume/Portfolio Site</h2>
                     <CardContent>
                     <p>first foray into React; built portfolio/resume site using JSX and the React libraries.</p> 
-                    </CardContent>
+                      </CardContent>
+                    </CardActionArea>
                   </Card>
                   <Card>
+                    <CardActionArea target="_blank" href="https://www.github.com/rjsmlal90/spitball">
                     <CardMedia>
                       <img src="images/final_spitball.jpg"></img>
                     </CardMedia>
@@ -31,24 +35,40 @@ export class Portfolio extends Component {
                     <CardContent>
                     <p>In order to learn how to build a web applicaton from top to bottom: using Java, JavaScript, Spring/SpringBoot, MySQL, & Ionic 3 built a web application using MVC design concepts. The application is designed to allow users to rate their teachers per school and district.</p> 
                     </CardContent>
+                    </CardActionArea>
                   </Card>
                   <Card>
+                    <CardActionArea target="_blank" href="https://github.com/rjsmall90/JavaJawn">
                     <CardMedia>
-                      <img src="images/scala_logo.jpg"></img>
+                      <img src="images/javalogo.jpg"></img>
                     </CardMedia>
                     <h2>JavaJawn</h2>
                     <CardContent>
-                    <p>using Scala, Spring/SpringBoot, & PostgreSQL, building a functioning scheduling application persisting server to learn Scala syntax. The goal is to build using TDD methodologies.</p> 
+                    <p>using Java, Spring/SpringBoot, & PostgreSQL, built a functioning, full-stack scheduling application to better learn the Spring MVC design pattern and using React for the front-end.</p> 
                     </CardContent>
+                    </CardActionArea>
                   </Card>
                   <Card>
+                    <CardActionArea target="_blank" href="https://github.com/rjsmall90/FoodReyes">
+                    <CardMedia>
+                      <img src="images/"></img>
+                    </CardMedia>
+                    <h2>FoodReyes-touch screen application for registering inventory and purchasing products</h2>
+                    <CardContent>
+                    <p>using Java, Spring/SpringBoot, & PostgreSQL, built a functioning, full-stack scheduling application to better learn the Spring MVC design pattern and using React for the front-end.</p> 
+                    </CardContent>
+                    </CardActionArea>
+                  </Card>
+                  <Card>
+                    <CardActionArea target="_blank" href="https://www.medium.com/@rjsmall90">
                     <CardMedia>
                       <img src="images/medium.jpg"></img>
                     </CardMedia>
                     <h2>Check Out My Blogs on Medium!</h2>
                     <CardContent>
-                    <p>A series of blogs, authored by me, as a means of educating myself, and readers on different computer science and software topics.</p> 
+                    <p>A series of blogs, authored by me, as a means of testing my knowledge, educating myself, and readers on different computer science and software topics.</p> 
                     </CardContent>
+                    </CardActionArea>
                   </Card>
                 </div>
               </div> 
