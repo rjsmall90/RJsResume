@@ -18,6 +18,7 @@
  */
 
 /* clearfix */
+
 .owl-carousel .owl-wrapper:after {
 	content: ".";
 	display: block;
@@ -776,5 +777,4 @@ img.mfp-img {
 	right: 0;
 	padding-top: 0;
 }
-
 /*# sourceMappingURL=vendor.css.map */

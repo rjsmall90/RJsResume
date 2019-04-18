@@ -14,21 +14,21 @@ export class Portfolio extends Component {
                   <h5>Portfolio</h5>
                   <h1>Check Out Some of My Work!</h1>
                   <p className="lead">A collection of some of my recent projects, web applications, and designs</p>
-                <div className = "cards">
-                  <Card>
+                <div>
+                  <Card class="cards">
                     <CardActionArea target ="_blank" href="https://www.github.com/rjsmall90/rjsresume">
-                    <CardMedia>
+                    <CardMedia class="cards-media">
                       <img src="images/Rsmall.jpg"></img>
                     </CardMedia>
                     <h2>Resume/Portfolio Site</h2>
                     <CardContent>
-                    <p>first foray into React; built portfolio/resume site using JSX and the React libraries.</p> 
+                    <p>first foray into React; built portfolio/resume site using JSX and the React libraries. First time registering domain and publishing site using AWS & S3 cloud services.</p> 
                       </CardContent>
                     </CardActionArea>
                   </Card>
-                  <Card>
-                    <CardActionArea target="_blank" href="https://www.github.com/rjsmlal90/spitball">
-                    <CardMedia>
+                  <Card className="cards">
+                    <CardActionArea target="_blank" href="https://github.com/rjsmall90/spitball">
+                    <CardMedia className="cards-media">
                       <img src="images/final_spitball.jpg"></img>
                     </CardMedia>
                     <h2>Project Spitball - Teacher Rating Service/Social Media</h2>
@@ -37,9 +37,9 @@ export class Portfolio extends Component {
                     </CardContent>
                     </CardActionArea>
                   </Card>
-                  <Card>
+                  <Card className="cards">
                     <CardActionArea target="_blank" href="https://github.com/rjsmall90/JavaJawn">
-                    <CardMedia>
+                    <CardMedia className="cards-media">
                       <img src="images/javalogo.jpg"></img>
                     </CardMedia>
                     <h2>JavaJawn</h2>
@@ -48,9 +48,9 @@ export class Portfolio extends Component {
                     </CardContent>
                     </CardActionArea>
                   </Card>
-                  <Card>
+                  <Card className="cards">
                     <CardActionArea target="_blank" href="https://github.com/rjsmall90/FoodReyes">
-                    <CardMedia>
+                    <CardMedia className="card-media">
                       <img src="images/"></img>
                     </CardMedia>
                     <h2>FoodReyes-touch screen application for registering inventory and purchasing products</h2>
@@ -59,9 +59,9 @@ export class Portfolio extends Component {
                     </CardContent>
                     </CardActionArea>
                   </Card>
-                  <Card>
+                  <Card className="cards">
                     <CardActionArea target="_blank" href="https://www.medium.com/@rjsmall90">
-                    <CardMedia>
+                    <CardMedia className="cards-media">
                       <img src="images/medium.jpg"></img>
                     </CardMedia>
                     <h2>Check Out My Blogs on Medium!</h2>

@@ -1868,12 +1868,22 @@ header .logo a {
 }
 
 #portfolio .cards {
-	display: block; 
-	align-content: flex-start;
+    max-width: 300px;
+	max-height: 350px; 
+	overflow: hidden; 
+	display: inline-flex;
+	float: left;
+  };
 
-	
+#portfolio .cards-media {
+	max-height: 50px;
+  };
 
-}
+#portfolio .cards-content {
+	display: inline-block; 	
+};
+
+
 
 
 /**
