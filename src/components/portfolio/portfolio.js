@@ -10,7 +10,7 @@ export class Portfolio extends Component {
             <React.Fragment>
             <div id ="portfolio">
               <div className="row section-intro">
-                <div className="col-twelve">
+                <div className="col m4">
                   <h5>Portfolio</h5>
                   <h1>Check Out Some of My Work!</h1>
                   <p className="lead">A collection of some of my recent projects, web applications, and designs</p>
@@ -49,17 +49,17 @@ export class Portfolio extends Component {
                     </CardContent>
                     </CardActionArea>
                   </Card>
-                  <Card className="cards">
-                    <CardActionArea target="_blank" href="https://github.com/rjsmall90/FoodReyes">
-                    <CardMedia className="card-media">
+                  <div className="cards">
+                    <div className = "cards-action-area" target="_blank" href="https://github.com/rjsmall90/FoodReyes">
+                    <div className="cards-media">
                       <img src="images/menu.jpg" className="card-media"></img>
-                    </CardMedia>
-                    <h2>FoodReyes</h2>
-                    <CardContent className="card-content">
+                      <span class="cards-title">FoodReyes</span>                    
+                    </div> {/*end of card-media*/}
+                      <div className="cards-content">
                     <p>-touch screen application for registering inventory and purchasing products. Through collaboration-using Java, Spring/SpringBoot, & React , building an inventory and purchasing mobile application</p> 
-                    </CardContent>
-                    </CardActionArea>
-                  </Card>
+                    </div> {/*end of card-content*/}
+                    </div> {/*end of card-action*/}
+                  </div> {/*end of card*/}
                   <Card className="cards">
                     <CardActionArea target="_blank" href="https://www.medium.com/@rjsmall90">
                     <CardMedia className="cards-media">
